@@ -84,8 +84,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+ 
 }
 .image_1{
     margin-top: 50px;
@@ -100,13 +99,16 @@ body{
     justify-content: center;
     text-align: center;
     font-weight:900 ;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: rgb(66, 66, 66);
     margin-bottom: 13px;
 }
 .p1{
     display: flex;
     text-align: center;
+    line-height: 1.57;
+    font-size: 1.07rem;
+    color:hsl(201, 11%, 66%);
 }
 
 .buttonContainer1{
@@ -114,14 +116,14 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 100px;
 }
 
 .iosDown{
  background-color: hsl(171, 66%, 44%);
  color: white;
  border: none;
- padding: 10px 35px;
- 
+ padding: 10px 110px;
  border-radius: 15px;
 }
 
@@ -133,8 +135,55 @@ body{
     border-radius: 15px;
 }
 
+.title_2{
+    font-weight:900 ;
+    font-size: 1.8rem;
+    color: rgb(66, 66, 66);
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.subtitle_2{
+    font-size: 1.07rem;
+    line-height: 1.57;
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+}
+
+.imageContainer_2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.4rem;
+}
+
+.title_3{
+    font-weight:900 ;
+    font-size: 1.8rem;
+    color: rgb(66, 66, 66);
+    margin-top: 60px;
+    text-align: center;
+}
+
+.subtitle_3{
+    font-size: 1.07rem;
+    line-height: 1.57;
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+}
+
+.container_6{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.imageContainer_6{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
 .displayNone{
-    display: none;
+   
 
  
 }
