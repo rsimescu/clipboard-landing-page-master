@@ -84,6 +84,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
  
 }
 .image_1{
@@ -162,6 +164,7 @@ body{
     color: rgb(66, 66, 66);
     margin-top: 60px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .subtitle_3{
@@ -182,8 +185,41 @@ body{
     justify-content: center;
     margin-top: 70px;
 }
-.displayNone{
-   
 
- 
+.socialMedia{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:40%;
+  gap: 50px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
+footer{
+  background-color:rgba(245,245,248,255) ;
+  width: 100%;
+}
+
+.footerData{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+gap: 7px;
+text-align: center;
+font-size: 1rem;
+font-weight: 900;
+}
+
+.logoContainer{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px;
+}
+
+
+.footerData img{
+  margin: 40px;
+}
+
