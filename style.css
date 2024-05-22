@@ -1,203 +1,205 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: "Bai Jamjuree";
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree";
 }
 
 
 body{
-    background:url(images/bg-header-mobile.png) no-repeat top ;
+  background:url(images/bg-header-mobile.png) no-repeat top ;
+
 }
 .bai-jamjuree-extralight {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .bai-jamjuree-light {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .bai-jamjuree-regular {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .bai-jamjuree-medium {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .bai-jamjuree-semibold {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .bai-jamjuree-bold {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .bai-jamjuree-extralight-italic {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .bai-jamjuree-light-italic {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .bai-jamjuree-regular-italic {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .bai-jamjuree-medium-italic {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .bai-jamjuree-semibold-italic {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .bai-jamjuree-bold-italic {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.bai-jamjuree-light {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bai-jamjuree-medium {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bai-jamjuree-bold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bai-jamjuree-extralight-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.bai-jamjuree-light-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.bai-jamjuree-regular-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bai-jamjuree-medium-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.bai-jamjuree-semibold-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.bai-jamjuree-bold-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 .pageContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
- 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+
 }
 .image_1{
-    margin-top: 50px;
-    width: 100%;
-    display: flex;
-    justify-content:center ;
-    height: 150px;
-    align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content:center ;
+  height: 150px;
+  align-items: center;
 }
 .title1{
-    display:flex ; 
-    justify-content: center;
-    text-align: center;
-    font-weight:900 ;
-    font-size: 1.8rem;
-    color: rgb(66, 66, 66);
-    margin-bottom: 13px;
+  display:flex ; 
+  justify-content: center;
+  text-align: center;
+  font-weight:900 ;
+  font-size: 1.8rem;
+  color: rgb(66, 66, 66);
+  margin-bottom: 13px;
 }
 .p1{
-    display: flex;
-    text-align: center;
-    line-height: 1.57;
-    font-size: 1.07rem;
-    color:hsl(201, 11%, 66%);
+  display: flex;
+  flex-direction: column ;
+  text-align: center;
+  line-height: 1.57;
+  font-size: 1.07rem;
+  color:hsl(201, 11%, 66%);
 }
 
 .buttonContainer1{
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 100px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 100px;
 }
 
 .iosDown{
- background-color: hsl(171, 66%, 44%);
- color: white;
- border: none;
- padding: 10px 110px;
- border-radius: 15px;
+background-color: hsl(171, 66%, 44%);
+color: white;
+border: none;
+padding: 10px 110px;
+border-radius: 15px;
 }
 
 .macDown{
-    background-color:hsl(233, 100%, 69%);
-    color: white;
-    border: none;
-    padding: 10px 35px;
-    border-radius: 15px;
+  background-color:hsl(233, 100%, 69%);
+  color: white;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 15px;
 }
 
 .title_2{
-    font-weight:900 ;
-    font-size: 1.8rem;
-    color: rgb(66, 66, 66);
-    margin-bottom: 13px;
-    text-align: center;
+  font-weight:900 ;
+  font-size: 1.8rem;
+  color: rgb(66, 66, 66);
+  margin-bottom: 13px;
+  text-align: center;
 }
 
 .subtitle_2{
-    font-size: 1.07rem;
-    line-height: 1.57;
-    color:hsl(201, 11%, 66%);
-    text-align: center;
+  font-size: 1.07rem;
+  line-height: 1.57;
+  color:hsl(201, 11%, 66%);
+  text-align: center;
 }
 
 .imageContainer_2{
-    display: flex;
-    justify-content: center;
-    margin-top: 3.4rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 3.4rem;
 }
 
 .title_3{
-    font-weight:900 ;
-    font-size: 1.8rem;
-    color: rgb(66, 66, 66);
-    margin-top: 60px;
-    text-align: center;
-    margin-bottom: 20px;
+  font-weight:900 ;
+  font-size: 1.8rem;
+  color: rgb(66, 66, 66);
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .subtitle_3{
-    font-size: 1.07rem;
-    line-height: 1.57;
-    color:hsl(201, 11%, 66%);
-    text-align: center;
+  font-size: 1.07rem;
+  line-height: 1.57;
+  color:hsl(201, 11%, 66%);
+  text-align: center;
 }
 
 .container_6{
-    display: flex;
-    flex-direction: column;
-    margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
 }
 
 .imageContainer_6{
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 .socialMedia{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width:40%;
-  gap: 50px;
-  margin-top: 150px;
-  margin-bottom: 150px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 40%;
+gap: 50px;
+margin-top: 150px;
+margin-bottom: 150px;
 }
 footer{
-  background-color:rgba(245,245,248,255) ;
-  width: 100%;
+background-color:rgba(245,245,248,255) ;
+width: 100%;
 }
 
 .footerData{
@@ -212,14 +214,204 @@ font-weight: 900;
 }
 
 .logoContainer{
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin: 40px;
+display: flex;
+justify-content: center;
+gap: 30px;
+margin: 40px;
 }
 
 
 .footerData img{
-  margin: 40px;
+margin: 40px;
 }
 
+@media screen and (min-width:750px){
+body{
+
+  background:url(images/bg-header-mobile.png) no-repeat top center  ;
+  background-size: 100%;
+}
+
+.title_3{
+  font-size: 1.5rem;
+}
+
+.subtitle_3{
+  font-size: 1.14rem;
+}
+
+.pageContainer{
+display: flex;
+flex-direction: column;
+padding: 0;
+}
+
+.historyContainer{
+display: flex;
+flex-direction: column;
+padding:0px 100px;
+margin-top: 30px;
+}
+
+.titleContainer{
+display: flex;
+flex-direction: row;
+text-align: center;
+justify-content: center;
+gap: 7px;
+
+
+}
+.p1{
+display: flex;
+flex-direction: row;
+text-align: center;
+gap: 7px;
+flex-wrap: wrap;
+justify-content: center;
+max-width: 580px  ;
+}
+
+.buttonContainer1{
+display: flex;
+flex-direction: row;
+}
+.iosDown{
+
+padding: 10px 35px; 
+}
+
+.title_2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 7px;
+}
+.subtitle_2{
+padding: 0px 150px;
+max-width: 952px;
+}
+
+.containerDesktop{
+  display: flex;
+  gap: 50px;
+  text-align: start;
+
+}
+.container_3 .subtitle_3{
+  max-width: 407px;
+  
+}
+.containerDesktop div{
+  text-align: start;
+}
+
+.imageContainer_2 img{
+  width: 100%;
+}
+
+.iconsContainer{
+  display:flex ;
+  flex-direction: row;
+  padding: 0px 40px;
+}
+
+.container_8 .title_3{
+  margin-top:52px ;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.socialMedia{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 80px;
+}
+.socialMedia img{
+  width: 150px;
+  
+}
+.logoMicrosoft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoHp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoVector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoGoogle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoMicrosoft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerData{
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+  gap: 30px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.footerP{
+  display: grid;
+  row-gap: 10px;
+  column-gap: 50px;
+  text-align: start;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container_4 .subtitle_3 {
+  max-width: 415px ;
+}
+
+.container_8 .subtitle_3 {
+  max-width: 373px ;
+}
+
+.container_9 .subtitle_3 {
+  max-width: 470px ;
+}
+
+
+.container_5 .subtitle_3 {
+  max-width: 395px ;
+}
+
+.container_6 .subtitle_3 {
+  max-width: 740px ;
+}
+
+.paragraphsDesktop{
+  margin-top: 60px;
+}
+}
